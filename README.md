@@ -5,12 +5,12 @@ https://docs.google.com/presentation/d/1AI9MgTkg9nNMocFFrQsWJK9IHLWC9UWhRIQ-epTO
 
 # Introduction
 
-We are presenting a technical analysis study on baskets of stocks and cryptocurrencies. We used data analysis to determine when market is in a good state to make a trade and used technical indicators to determine long/short bias.
+This is a technical analysis study on baskets of stocks and cryptocurrencies using data analysis to determine when market is in a good state to make a trade and used technical indicators to determine long/short bias.
 
 
-Five stocks were chosen for the stock portfolio. Stocks were chosen after analyzing which are most volatile and attractive for short term trading. We selected from a list of stocks with 7% weekly volatility and one million shares per day average. We then sorted by market cap and took five of the largest. We ended up with Rivian (RIVN), Twitter (TWTR), Doordash (DASH), Unity Software (U), and Cleveland-Cliffs (CLF). 
+Five stocks were chosen for the stock portfolio. Stocks were chosen after analyzing which are most volatile and attractive for short term trading. I selected from a list of stocks with 7% weekly volatility and one million shares per day average. I then sorted by market cap and took five of the largest. I ended up with Rivian (RIVN), Twitter (TWTR), Doordash (DASH), Unity Software (U), and Cleveland-Cliffs (CLF). 
 
-Five cryptos were chosen based on volatility and market cap. We settled on Bitcoin (BTC), Ethereum (ETH), BinanceCoin (BNB), Solana (SOL), and Cardano (ADA).
+Five cryptos were chosen based on volatility and market cap. I settled on Bitcoin (BTC), Ethereum (ETH), BinanceCoin (BNB), Solana (SOL), and Cardano (ADA).
 
 
 # Clean and prepare the data:
@@ -29,7 +29,7 @@ The master_functions.py is a python module, that was created to house resusable 
 
 # Should we trade?
 
-First, we determined when its a good time to trade. We analyzed the volatility trends and present the information to the end-user. Volatility analysis is done based on a 30 day time period.
+First, I determined when its a good time to trade. We analyzed the volatility trends and present the information to the end-user. Volatility analysis is done based on a 30 day time period.
 
 
 Volatility/Price change:  
@@ -74,7 +74,7 @@ Backtesting:
 
 # Summarizing the strategy
 
-We have created an algorithm with the following parameters.
+I created an algorithm with the following parameters.
 
 Go long if all parameters are met:  
 1. Volatility is in the top 25 percent of all recorded values.  
